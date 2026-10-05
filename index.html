@@ -1,14 +1,129 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <img
-     src="https://imgs.search.brave.com/78sK5dTuEwextEVfGCYXAWlUqb2r6PVXrTOkHlJPVxI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/d2hhdC1pcy10aGUt/bW9zdC1yYW5kb20t/aW1hZ2Utcy15b3Ut/aGF2ZS1pbi10aGUt/cGhvdG8tcm9sZS12/MC05YzU0OWtmcDNr/MWMxLmpwZWc_d2lk/dGg9NTQ5JmZvcm1h/dD1wanBnJmF1dG89/d2VicCZzPTk2Mjhj/Y2Y1ZGRkYmVmYTVl/ZTVkMWVlYmM4ZTNj/NWE1Yzg2NTkxZTg"
-    />
-    <h1>Project reviving OG</h1>
-    <p>Coder plant </p>
-    <p>Will code ur pea</p>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainy Night Minecraft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scene">
+
+   
+    <div class="wall"></div>
+
+   
+    <div class="window-container">
+
+        <div class="window">
+
+            
+            <div class="sky">
+
+                <div class="moon"></div>
+
+                
+                <div class="city">
+                    <div class="building b1"><span></span><span></span><span></span></div>
+                    <div class="building b2"><span></span><span></span><span></span></div>
+                    <div class="building b3"><span></span><span></span><span></span></div>
+                    <div class="building b4"><span></span><span></span><span></span></div>
+                    <div class="building b5"><span></span><span></span><span></span></div>
+                    <div class="building b6"><span></span><span></span><span></span></div>
+                    <div class="building b7"><span></span><span></span><span></span></div>
+                    <div class="building b8"><span></span><span></span><span></span></div>
+                    <div class="building b9"><span></span><span></span><span></span></div>
+                    <div class="building b10"><span></span><span></span><span></span></div>
+                </div>
+
+            
+                <div class="city-lights">
+                    <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                    <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+
+                <!-- RAIN -->
+                <div class="rain"></div>
+                <div class="rain rain-front"></div>
+
+            </div>
+
+            
+            <div class="frame vertical"></div>
+            <div class="frame horizontal"></div>
+
+            <div class="glass-reflection"></div>
+
+            <!-- WATER DROPS -->
+            <div class="glass-drop drop1"></div>
+            <div class="glass-drop drop2"></div>
+            <div class="glass-drop drop3"></div>
+            <div class="glass-drop drop4"></div>
+
+        </div>
+
+        
+        <div class="curtain curtain-left">
+            <div class="curtain-fold fold1"></div>
+            <div class="curtain-fold fold2"></div>
+            <div class="curtain-fold fold3"></div>
+            <div class="curtain-fold fold4"></div>
+            <div class="curtain-fold fold5"></div>
+        </div>
+
+        
+        <div class="curtain curtain-right">
+            <div class="curtain-fold fold1"></div>
+            <div class="curtain-fold fold2"></div>
+            <div class="curtain-fold fold3"></div>
+            <div class="curtain-fold fold4"></div>
+            <div class="curtain-fold fold5"></div>
+        </div>
+
+    </div>
+
+    <div class="floor"></div>
+
+    <div class="lamp">
+        <div class="lamp-glow"></div>
+        <div class="lamp-shade"></div>
+        <div class="lamp-light"></div>
+        <div class="lamp-pole"></div>
+        <div class="lamp-base"></div>
+    </div>
+
+    <div class="mug">
+        <div class="mug-body"></div>
+        <div class="handle"></div>
+        <div class="steam steam1"></div>
+        <div class="steam steam2"></div>
+    </div>
+
+    
+    <div class="title">
+        <h1>Rainy Night</h1>
+        <p>MINECRAFT • RAIN • RELAX</p>
+    </div>
+
+    <button id="startButton">▶ Play Minecraft</button>
+
+    <div class="volume-control">
+        <span id="volumeIcon">🔊</span>
+        <input type="range" id="volume" min="0" max="1" step="0.01" value="0.35">
+    </div>
+
+</div>
+
+<audio id="music" loop preload="auto">
+    <source src="sweden.mp3" type="audio/mpeg">
+    <source src="Sweden.mp3" type="audio/mpeg">
+    <source src="sweden.ogg" type="audio/ogg">
+    <source src="sweden.wav" type="audio/wav">
+    <source src="sweden.mp4" type="video/mp4">
+</audio>
+
+<script src="music.js"></script>
+
+</body>
 </html>
